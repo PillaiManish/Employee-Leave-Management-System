@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Update">
+   <children>
+      <TextField fx:id="contact" layoutX="204.0" layoutY="84.0" promptText="Contact No." />
+      <TextField fx:id="email" layoutX="204.0" layoutY="148.0" promptText="Email ID" />
+      <Button fx:id="update" layoutX="274.0" layoutY="257.0" mnemonicParsing="false" onAction="#updateclick" text="Button" />
+   </children>
+</AnchorPane>

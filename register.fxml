@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Cregister">
+   <children>
+      <ImageView fitHeight="416.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Downloads/registration_bck.jpg" />
+         </image>
+      </ImageView>
+      <TextField fx:id="names" layoutX="226.0" layoutY="108.0" promptText="Employee Name" style="-fx-background-radius: 100;" />
+      <TextField fx:id="designations" layoutX="226.0" layoutY="140.0" promptText="Designation" style="-fx-background-radius: 100;" />
+      <TextField fx:id="ageo" layoutX="226.0" layoutY="205.0" promptText="Age" style="-fx-background-radius: 100;" />
+      <TextField fx:id="contacts" layoutX="226.0" layoutY="238.0" promptText="Contact No." style="-fx-background-radius: 100;" />
+      <TextField fx:id="eamil" layoutX="226.0" layoutY="271.0" promptText="E-Mail Id" style="-fx-background-radius: 100;" />
+      <RadioButton layoutX="226.0" layoutY="175.0" mnemonicParsing="false" style="-fx-border-width: 100;" text="Male" />
+      <RadioButton layoutX="316.0" layoutY="175.0" mnemonicParsing="false" style="-fx-border-width: 100;" text="Female" />
+      <Button fx:id="register" layoutX="180.0" layoutY="14.0" mnemonicParsing="false" onAction="#registerclick">
+         <graphic>
+            <ImageView fitHeight="87.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Downloads/Download-Register-Button-PNG-HD.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <TextField fx:id="addresser" layoutX="226.0" layoutY="320.0" />
+   </children>
+</AnchorPane>
